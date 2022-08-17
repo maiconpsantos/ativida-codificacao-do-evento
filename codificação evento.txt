@@ -1,0 +1,28 @@
+let dataAtual = new Date ("2022/08/17")
+let dataEvento = new Date ("2022/09/10")
+let idade = 19
+let convidados = ("junior", "daniele", "herculano","maicon","brenda")
+
+
+if ( dataAtual > dataEvento ) { console.log ("data do evento invalido")}
+else { console.log ("evento disponível ") }
+
+
+console.log ("---------------------")
+
+
+if (idade > 18 ) { console.log (" idade permitida para o evento")}
+else { console.log (" idade negada para o evento ") }
+
+
+console.log ("--------------------") 
+
+
+
+if (convidados < 100) {console.log ("permitido")}
+else {console.log ("excesso de convidados ")}
+
+console.log ("----------------------")
+
+
+console.log (" fim do processo de evento ")
